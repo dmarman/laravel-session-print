@@ -12,11 +12,18 @@ $ cd resources/views
 $ wget "https://raw.githubusercontent.com/dmarman/laravel-session-print/master/sessionPrinter.blade.php"
 ```
 
+Then find your blade file where the ```<body>``` is located and right after it add:
+
+```
+@include('sessionPrinter')
+```
+
+This will insert sessionPrinter at the top of all your pages.
 
 
-## Motivation
+## Configuration
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+
 
 ## Installation
 
