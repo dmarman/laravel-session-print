@@ -23,12 +23,12 @@ This will insert sessionPrinter at the top of all your pages.
 
 ## Configuration
 
-There are three modes available ```DOM```, ```CONSOLE``` and ```HIDDEN```. To switch modes just change ```var modus```
- inside the sessionPrinter.blade.php file for the modus you prefer. Example:
+There are three modes available ```DOM```, ```CONSOLE``` and ```HIDDEN```. To switch modes just change the ```var mode```
+inside the ```sessionPrinter.blade.php``` file for the mode you prefer. Example:
 
- ```javascript
- var mode = "CONSOLE";
- ```
+```javascript
+var mode = "CONSOLE";
+```
 
 ### DOM mode
 
