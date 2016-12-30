@@ -14,7 +14,7 @@ $ wget "https://raw.githubusercontent.com/dmarman/laravel-session-print/master/s
 
 Then find your blade file where the ```<body>``` is located and right after it add:
 
-```
+```php
 @include('sessionPrinter')
 ```
 
@@ -26,7 +26,7 @@ This will insert sessionPrinter at the top of all your pages.
 There are three modes available ```DOM```, ```CONSOLE``` and ```HIDDEN```. To switch modes just change ```var modus```
  inside the sessionPrinter.blade.php file for the modus you prefer. Example:
 
- ```
+ ```javascript
  var mode = "CONSOLE";
  ```
 
