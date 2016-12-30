@@ -3,6 +3,9 @@
 SessionPrinter is simple tool that outputs all the variables stored in the session of a Laravel project.
 It is very handy if you need to do some testing or debugging with your session variables.
 
+![alt text](https://github.com/dmarman/laravel-session-print/blob/master/Screenshot.png "Screenshot")
+
+
 ## Installation
 
 In your project directory:
